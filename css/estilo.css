@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logotipo img{
+    margin-left: 50px;
+    width: 200;
+}
+
+ul{
+    position:relative;
+    text-align: right;
+    margin-right: 100px;
+}
+ul li {
+    display: inline-block;
+}
+#cabecalho{
+    margin: 0;
+    padding: 0;
+    background: gray;
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    width: 100%;
+    padding: 4px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 15px;
+    display: block;
+}
+
+ul li:hover{
+    background: lightgray;
+}
+
+ul ul{
+    position: absolute;
+    min-width: 111px;
+    display: none;
+    background: lightgray;
+    text-align: left;
+}
+
+ul ul li{
+    display: block;
+    background: #e3e3e3;
+}
+
+ul li:hover ul{
+    display: block;
+}
