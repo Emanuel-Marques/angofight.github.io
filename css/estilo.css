@@ -292,3 +292,33 @@ footer{
     text-align: left;
     border-radius: 16px;
 }
+#social{
+    margin-bottom: 1px;
+    padding: 50px;
+    background: #212837;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#social p{
+    font-size: large;
+}
+
+#social button{
+    margin-top: 25px;
+    padding: 50px;
+    margin-bottom: 50px;
+    display: inline;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    background: #499ada;
+    border-radius: 6px;
+    padding: 14px 14px;
+    cursor: pointer;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.3s ease;  
+}
+/* Área da pag campeonatos*/
