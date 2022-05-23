@@ -81,7 +81,7 @@ ul li:hover ul{
     height: 80vh;
     align-items: center;
     justify-content: center;
-    background: url('/imgs/bg-banner.jpg')no-repeat;
+    background: url('imgs/bg-banner.jpg')no-repeat;
     background-size: 100%;
 }
 
