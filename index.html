@@ -10,25 +10,25 @@
 <body>
     <header id="cabecalho">
         <div id="logotipo">
-            <img src="imgs/logo.png" alt="logo" width="50" height="50"> 
+            <img src="imgs/logo.png" alt="logo" width="50" height="50"> <p>Ango Fight</p>
         </div>
         <nav id="menu">
             <ul>
                 <li><a href="#">Eventos</a></li>
-                <li><a href="#">Comunidade</a>
+                <li><a href="#">Comunidade <img src="imgs/seta1.png" width="10" height="10"></a>
                     <ul>
                         <li><a href="#">Academias</a></li>
                         <li><a href="#">Atletas</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Sobre</a>
+                <li><a href="#">Sobre <img src="imgs/seta1.png" width="10" height="10"></a>
                     <ul>
                         <li><a href="#">Ango-Fight</a></li>
                         <li><a href="#">Apoio-Suporte</a></li>
                     </ul>
                 </li>
                     
-                <li><a href="#">conta</a>
+                <li><a href="#">Conta <img src="imgs/login1.png" width="20px" height="20px"></a>
                     <ul>
                         <li><a href="#">Conectar</a></li>
                         <li><a href="#">Criar Conta</a></li>
@@ -40,45 +40,116 @@
     </header>
 
     <div id="banner">
-      <div class="slider">
-        <div class="slides">
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
-
-            <div class="slide first">
-                <img src="/imgs/camp1.jpg" alt="Campeonato 1">
+        <div id="card">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+        
+                    <div class="slide first">
+                        <img src="/angofight.github.io/imgs/camp1.jpg" alt="Campeonato 1">
+                    </div>
+        
+                    <div class="slide">
+                        <img src="/angofight.github.io/imgs/camp2.jpg" alt="Campeonato 2">
+                    </div>
+        
+                    <div class="slide">
+                        <img src="/angofight.github.io/imgs/camp3.jpg" alt="Campeonato 3">
+                    </div>
+        
+                    <div class="slide">
+                        <img src="/angofight.github.io/imgs/camp4.png" alt="Campeonato 4">
+                    </div>
+        
+                    <dv class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </dv>
+                </div>
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
             </div>
-
-            <div class="slide">
-                <img src="/imgs/camp2.jpg" alt="Campeonato 2">
-            </div>
-
-            <div class="slide">
-                <img src="/imgs/camp3.jpg" alt="Campeonato 3">
-            </div>
-
-            <div class="slide">
-                <img src="/imgs/camp4.png" alt="Campeonato 4">
-            </div>
-
-            <dv class="navigation-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
-            </dv>
         </div>
-        <div class="manual-navigation">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-        </div>
-      </div>
     </div>
+    
+    <main>
+        <div id="sobre">
+            <h1>O MELHOR SITE DE CAMPEONATOS DE ANGOLA PARA JIU-JITSU BRASILEIRO</h1>
+            <p>A maniera mais fácil de participar, organizar e acompanhar competições</p>
+        </div>
+        <div class="btns">
+            <button>Encontrar Campeonato</button> <button>Criar Campeonato</button>
+        </div>
+        <div id="breve">
+            <div class="cartao">
+                <img src="/imgs/lutadores.png" width="100" height="100"></img>
+                <div class="infor">
+                    <h2>Para Lutadores</h2>
+                    <p>
+                        Edite inscrições e veja suas próximas 
+                        lutas com um horário de início. 
+                        Todas as informações que você precisa estão ao seu alcance.
+                    </p>
+                    <div class="btns">
+                        <button>Saiba mais e comece</button>
+                    </div>
+                </div>
+            </div>
 
-    <script src="/js/js.js"></script>
+            <div class="cartao">
+                <img src="/imgs/treinadores.png" width="100" height="100">
+                <div class="infor">
+                    <h2>Para Treinadores</h2>
+                    <p>
+                        Seja capaz de fazer registros, 
+                        criar novos usuários, pagar e pesquisar 
+                        por todos os seus lutadores.
+                    </p>
+                </div>
+                <div class="btns">
+                    <button>Saiba mais e comece</button>
+                </div> 
+            </diV>
+
+            <div class="cartao">
+                <img src="/imgs/organizadores.png" width="100" height="70">
+                <div class="infor">
+                    <h2>Para Organizadores</h2>
+                    <p>
+                        Pagamentos,agendamento e pesagem. 
+                        Quando chegar a hora das lutas, 
+                        o placar integrado garantirá que seu torneio receba todos 
+                        os pontos.
+                    </p>
+                </div>
+                <div class="btns">
+                    <button>Saiba mais e comece</button>
+                </div>
+            </diV>
+        </div>
+        <div id="video">
+            <a href="https://www.youtube.com/watch?v=XcI8ct3Ifik" target="_blank"><img src="/imgs/video.png"></a>
+                <p>
+                    "Competir é uma sensação indescritível. 
+                    Ficar em cima de um tatame e enfrentar o adversário."<br>
+                    <a href="https://www.youtube.com/watch?v=XcI8ct3Ifik" target="_blank"><img src="/imgs/vervideo.png" ></a> 
+                </p>
+                
+        </div>
+    </main>
+
+    <footer>
+        <p>DC Tech Angola - 2022 | &copy; todos os direitos reservados</p>
+    </footer>
+    <script src="/angofight.github.io/js/js.js"></script>
 </body>
 </html>
